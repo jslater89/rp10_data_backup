@@ -1,8 +1,8 @@
 #!/bin/bash
 
 cd /home/jay/code/rp10_data_backup
-cp ../db.backup .
+cp ../rp10_index_server/db.sqlite .
 
-git add db.backup
-git commit
+git add db.sqlite
+git commit -m "Daily data drop"
 git push
